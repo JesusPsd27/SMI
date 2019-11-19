@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SMI</string>
+    <string name="botton_agregar">Agregar un Producto</string>
+    <string name="botton_lista">Ver Lista de Productos</string>
+    <string name="button_venta">Punto de Venta</string>
+    <string name="button_escanear">Escanear Codigo</string>
+    <string name="button_consultar">Consultar Producto</string>
+    <string name="button_actualiza">Modificar</string>
+    <string name="button_eliminar">Eliminar</string>
+    <string name="button_enviar">Enviar</string>
+    <string name="text_producto">Producto:</string>
+    <string name="text_categoria">Categoria:</string>
+    <string name="text_codigo">Codigo:</string>
+    <string name="text_nombre">Nombre:</string>
+    <string name="text_precio">Precio:</string>
+    <string name="text_modificar">Modificar Producto</string>
+    <string name="img_logo">Logo</string>
+    <string name="textview_categoria">Categoria</string>
+    <string name="textview_codigo">Codigo</string>
+    <string name="textview_nombre">Nombre</string>
+    <string name="textview_precio">Precio</string>
+    <string name="textview_simbolo">$</string>
+    <string name="text_nombreproducto">Nombre del Producto</string>
+    <string name="text_cantidad">Cantidad:</string>
+    <string name="textview_cantidad">Cantidad</string>
+    <string name="lista_de_productos">Lista de Productos</string>
+    <string name="text_total">Total:</string>
+</resources>

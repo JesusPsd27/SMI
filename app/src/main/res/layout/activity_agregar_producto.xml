@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgregarProductoActivity">
+
+    <Button
+        android:id="@+id/scan_btn"
+        android:layout_width="275dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="@string/button_escanear" />
+
+    <TextView
+        android:id="@+id/textViewC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/text_codigo"
+        android:textSize="19sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editTextC"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="140dp"
+        android:ems="9"
+        android:inputType="textPersonName"
+        android:hint="@string/textview_codigo"
+        tools:ignore="RelativeOverlap"
+        android:importantForAutofill="no"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textViewC"
+        android:layout_alignStart="@+id/textViewC"
+        android:layout_marginTop="210dp"
+        android:text="@string/text_nombre"
+        android:textSize="19sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editTextN"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextC"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editTextC"
+        android:layout_marginTop="200dp"
+        android:ems="9"
+        android:hint="@string/textview_nombre"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textViewC"
+        android:layout_alignStart="@+id/textViewC"
+        android:layout_marginTop="270dp"
+        android:text="@string/text_categoria"
+        android:textSize="19sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editTextCt"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextC"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editTextC"
+        android:layout_marginTop="260dp"
+        android:ems="9"
+        android:inputType="textPersonName"
+        android:hint="@string/textview_categoria"
+        android:importantForAutofill="no"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textViewC"
+        android:layout_alignStart="@+id/textViewC"
+        android:layout_marginTop="330dp"
+        android:text="@string/text_cantidad"
+        android:textSize="19sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editTextCan"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextC"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editTextC"
+        android:layout_marginTop="320dp"
+        android:ems="9"
+        android:inputType="textPersonName"
+        android:hint="@string/textview_cantidad"
+        android:importantForAutofill="no"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textViewC"
+        android:layout_alignStart="@+id/textViewC"
+        android:layout_marginTop="390dp"
+        android:text="@string/text_precio"
+        android:textSize="19sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/editTextC"
+        android:layout_alignStart="@+id/editTextC"
+        android:layout_marginStart="-15dp"
+        android:layout_marginTop="390dp"
+        android:text="@string/textview_simbolo"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="-15dp" />
+
+    <EditText
+        android:id="@+id/editTextPrec"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextC"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editTextC"
+        android:layout_marginTop="380dp"
+        android:ems="9"
+        android:inputType="textPersonName"
+        android:hint="@string/textview_precio"
+        android:importantForAutofill="no"/>
+
+    <Button
+        android:id="@+id/buttonE"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="465dp"
+        android:text="@string/button_enviar"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>

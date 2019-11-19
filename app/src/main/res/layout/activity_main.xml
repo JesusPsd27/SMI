@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <ImageView
+            app:srcCompat="@drawable/smi"
+            android:layout_height="260dp"
+            android:layout_width="wrap_content"
+            android:contentDescription="@string/img_logo" />
+
+        <Button
+            android:id="@+id/buttonA"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="255dp"
+            android:text="@string/botton_agregar"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonL"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="315dp"
+            android:text="@string/botton_lista"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonAc"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="375dp"
+            android:text="@string/text_modificar"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonVnt"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="435dp"
+            android:text="@string/button_venta"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+</RelativeLayout>
